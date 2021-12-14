@@ -24,3 +24,28 @@ namespace _net.Controllers
             // Puedes ignorar la opción de base de datos (database) si quieres acceder a todas
             // 127.0.0.1 es de localhost y el puerto predeterminado para conectar
             string connectionString = "datasource=127.0.0.1;port=3306;username=curso;password=curso1;database=cursosantander;";
+            // Tu consulta en SQL
+            string query = "SELECT nombre FROM curso";
+            try
+            {
+                MySqlConnection databaseConnection = new MySqlConnection(connectionString);
+                MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+                commandDatabase.CommandTimeout = 60;
+                MySqlDataReader reader;
+                databaseConnection.Open();
+
+                // Ejecuta la consultas
+                reader = commandDatabase.ExecuteReader();
+
+                // Hasta el momento todo bien, es decir datos obtenidos
+
+                // IMPORTANTE :#
+                // Si tu consulta retorna un resultado, usa el siguiente proceso para obtener datos
+
+                if (reader.HasRows)
+
+                {
+                    
+
+                    while (reader.Read())
+                    {
