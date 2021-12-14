@@ -1,1 +1,26 @@
 hola
+using MySql.Data.MySqlClient;
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+
+
+namespace _net.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ILogger<HomeController> _logger;
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+        public IActionResult Index()
+        {
+            List<string> fila = new List<string>();
+
+
+            // La siguiente linea es la que provee la conexión entre C# y MySQL.
+            // Debes cambiar el nombre de usuario, contrasenia y nombre de base de datos
+            // de acuerdo a tus datos
+            // Puedes ignorar la opción de base de datos (database) si quieres acceder a todas
+            // 127.0.0.1 es de localhost y el puerto predeterminado para conectar
+            string connectionString = "datasource=127.0.0.1;port=3306;username=curso;password=curso1;database=cursosantander;";
