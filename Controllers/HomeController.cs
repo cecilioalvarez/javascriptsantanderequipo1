@@ -21,29 +21,7 @@ namespace javascriptsantanderequipo1.Controllers
 
         public IActionResult Index()
         {
-
-            string connectionString = "datasource=localhost;port=3306;username=root;password=root;database=cursosantander;";
-            // Tu consulta en SQL
-            string query = "SELECT * from Facturas";
-            try
-            {
-                MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-                MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
-                databaseConnection.Open();
-                MySqlDataReader reader;
-               
-
-                // Ejecuta la lectura de la primera fila de la tabla
-                reader = commandDatabase.ExecuteReader();
-                reader.Read();
-                ViewBag.concepto= reader.GetString("concepto");
-                
-            }catch(Exception e) {
-
-                    Console.WriteLine(e);
-                
-            }
-
+           @ViewBag.datos = DataBase.MostrarTabla();
             return View();
         }
 

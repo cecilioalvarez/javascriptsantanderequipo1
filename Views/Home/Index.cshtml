@@ -2,4 +2,57 @@
     ViewData["Title"] = "Home Page";
 }
 
-@ViewBag.concepto
+<table>
+    <thead>
+        <tr>
+            <th class="pp"><a title="Añadir un Usuario" href=""><img src="~/lib/img/añadir.png" alt="Icono añadir factura"></a></th>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ver Detalles</th>
+            <th class="pp"><a title="Borrar un Usuario" onclick="BorrarRegistro()"><img src="~/lib/img/borrar.png" alt="Icono añadir factura"></a></th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < @ViewBag.datos.Count; i++) {
+            <tr>                 
+                <td></td>
+                <td>@ViewBag.datos[i].numero</td>
+                <td>@ViewBag.datos[i].concepto</td>
+                <td>@ViewBag.datos[i].importe</td>  
+                <td><a href=""> Ver Detalles</a></td>
+                <td></td>                          
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>    
+    table {
+        width: 50%;
+        border: black 3px solid;
+        margin-left:25%;
+    }
+    table a {
+        width:fit-content;
+        height:fit-content;
+    }
+    table a img {
+        width: 100%;
+        height:auto;        
+    }    
+    .pp {
+        background-color: white;
+        width:3vw;
+        height:fit-content;
+        padding:0.5vw;
+    }
+    table tr,table td, table th  {
+        border: black 3px solid;
+        text-align: center;   
+        padding:10px;
+    }
+    table th  {
+        background-color: #ed9d35;
+    }    
+</style>
