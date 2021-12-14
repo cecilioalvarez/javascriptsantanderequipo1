@@ -849,19 +849,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/cecilioalvarezcaules/.nuget/packages/": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cecilioalvarezcaules/Desktop/repositoriocompartido/javascriptsantanderequipo1/javascriptsantanderequipo1.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CursoHTML\\javascript\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
       "projectName": "javascriptsantanderequipo1",
-      "projectPath": "/Users/cecilioalvarezcaules/Desktop/repositoriocompartido/javascriptsantanderequipo1/javascriptsantanderequipo1.csproj",
-      "packagesPath": "/Users/cecilioalvarezcaules/.nuget/packages/",
-      "outputPath": "/Users/cecilioalvarezcaules/Desktop/repositoriocompartido/javascriptsantanderequipo1/obj/",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\CursoHTML\\javascript\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\CursoHTML\\javascript\\javascriptsantanderequipo1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/cecilioalvarezcaules/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -908,7 +908,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

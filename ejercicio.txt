@@ -1,0 +1,17 @@
+Modelo
+clase factura:
+numero, concepto, importe
+
+clase facturaRepositorio
+
+list<Factura>buscarTodas
+insertar(factura f)
+
+Vista
+html
+
+Controlador
+html
+
+cshtml: listado
+cshtml: formulario
