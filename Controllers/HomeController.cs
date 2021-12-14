@@ -25,27 +25,43 @@ namespace javascriptsantanderequipo1.Controllers
             string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=cursosantander;";
             // Tu consulta en SQL
             string query = "SELECT * from Facturas";
+            List<string> lista = new List<string>();
             try
             {
                 MySqlConnection databaseConnection = new MySqlConnection(connectionString);
                 MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
                 databaseConnection.Open();
                 MySqlDataReader reader;
-               
+
 
                 // Ejecuta la lectura de la primera fila de la tabla
                 reader = commandDatabase.ExecuteReader();
-                reader.Read();
-                ViewBag.concepto= reader.GetString("concepto");
-                ViewBag.importe= reader.GetDecimal("importe");
-                ViewBag.numero=reader.GetInt32("numero");
-                
-            }catch(Exception e) {
+                //reader.Read();
+                //ViewBag.concepto = reader.GetString("concepto");
+                //ViewBag.importe = reader.GetDecimal("importe");
+                //ViewBag.numero = reader.GetInt32("numero");
 
-                    Console.WriteLine(e);
-                
+
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        lista.Add(reader.GetInt32("numero")+"\t"+reader.GetString("concepto")+"\t"+reader.GetDecimal("importe"));
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No rows found.");
+                }
+                reader.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
             }
 
+            ViewBag.lista = lista;
             return View();
         }
 
