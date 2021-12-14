@@ -1,15 +1,15 @@
+using System.Collections.Generic;
 namespace javascriptsantanderequipo1.Models {
     public class ClaseFactura {
         // Variables.
-        private int numero { get; set; }
-        private string concepto { get; set; }
-        private decimal importe { get; set; }
+        public int numero { get; set; }
+        public string concepto { get; set; }
+        public decimal importe { get; set; }
 
         // Constructor.
-        public ClaseFactura() {}
         public ClaseFactura(int numero, string concepto, decimal importe) {     
             this.numero = numero;               
-            this.nombre = nombre;   
+            this.concepto = concepto;   
             this.importe = importe;   
         }                                   
     }

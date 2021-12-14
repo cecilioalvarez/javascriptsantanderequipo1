@@ -854,11 +854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Curso web avanzado\\SQL\\EjercicioBDD_APS_Grupo3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
       "projectName": "javascriptsantanderequipo1",
-      "projectPath": "D:\\Curso web avanzado\\SQL\\EjercicioBDD_APS_Grupo3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Curso web avanzado\\SQL\\EjercicioBDD_APS_Grupo3\\javascriptsantanderequipo1\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

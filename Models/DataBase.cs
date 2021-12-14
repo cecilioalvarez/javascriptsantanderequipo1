@@ -1,6 +1,7 @@
 using System.Collections;
+using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-
+using System;
 namespace javascriptsantanderequipo1.Models {
     public class DataBase {
         // Constructor
