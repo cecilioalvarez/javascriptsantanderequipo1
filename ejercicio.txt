@@ -2,7 +2,7 @@ Modelo
 clase factura:
 numero, concepto, importe
 
-clase facturaRepositorio
+clase facturaRepositorio : 
 
 list<Factura>buscarTodas
 insertar(factura f)
@@ -15,3 +15,19 @@ html
 
 cshtml: listado
 cshtml: formulario
+
+Notas:
+======
+clase factura : clase para trabajar con cada registro de la tabla facturas
+clase facturaRepositorio : conectar y operar con la base de datos | consistencia de los datos | integridad???
+list<Factura>buscarTodas    : una de las operaciones del repositorio o de la clase, consultar con Cecilio
+insertar(factura f)         : otra de las operacioens del repo o de la clase... la misma pregunta
+Las vistas "index.cshtml" que mostraría la tabla con los registros, según sugirió Cecilio...
+y la vista "formulario.cshtml" que hay que crear, con un formulario, para añadir o modificar facturas...
+se crean en la carpeta Views/Home y a su vez debe tener una función en el HomeController.cs, como es el caso de index.cshtml
+
+Repartir tareas para no pisarnos unos a otros.
+
+
+
+
