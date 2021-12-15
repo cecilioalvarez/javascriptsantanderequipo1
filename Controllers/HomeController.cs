@@ -29,6 +29,11 @@ namespace javascriptsantanderequipo1.Controllers
             return View();
         }
 
+        public IActionResult Formulario()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
