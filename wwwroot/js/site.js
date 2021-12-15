@@ -1,4 +1,8 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿function BorrarRegistro(){
+    var numeroBorrar = parseInt(window.prompt("Introduce el numero del producto a borrar"));
+    if (!isNaN(numeroBorrar)) {
+        window.location.href = "/Home/Borrar?numero=" + numeroBorrar;  
+    } else {
+        alert("Eso no es una numero");
+    }    
+}

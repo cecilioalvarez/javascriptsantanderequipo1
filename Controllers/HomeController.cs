@@ -34,6 +34,11 @@ namespace javascriptsantanderequipo1.Controllers
         {
             return View();
         }
+         public IActionResult Borrar(int numero)
+        {
+            DataBase.BorrarDispositivo(numero);
+            return RedirectToAction("Index");
+        }
         public IActionResult Insertar(string concepto, decimal importe)
         {
             DataBase.InsertarDispositivo(new ClaseFactura(concepto,importe));

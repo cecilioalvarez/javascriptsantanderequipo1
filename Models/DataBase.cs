@@ -70,6 +70,37 @@ namespace javascriptsantanderequipo1.Models {
                 Console.WriteLine("ERROR");
                 Console.WriteLine(ex.Message);
             }
-        }                              
+        }     
+         // Funcion que elimina el dispositivo.
+        public static void BorrarDispositivo(int posicion){
+            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=cursosantander;";
+            // Consulta en SQL
+            string query = "DELETE FROM Facturas where numero=" + posicion + ";";
+            // Prepara la conexión
+            MySqlConnection databaseConnection = new MySqlConnection(connectionString);
+            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            commandDatabase.CommandTimeout = 60;
+             try {
+                // Abre la base de datos
+                databaseConnection.Open();
+
+                // Ejecuta el insert
+                commandDatabase.ExecuteNonQuery();
+                // Fix del AutoIncrement.
+                string trunca = "ALTER TABLE Facturas AUTO_INCREMENT = 1;";
+                commandDatabase = new MySqlCommand(trunca, databaseConnection);
+                
+                // Ejecuta el Fix
+                commandDatabase.ExecuteNonQuery();
+
+                // Cerrar la conexión
+                databaseConnection.Close();                
+            }
+            catch (Exception ex) {
+                // Mostrar cualquier excepción
+                Console.WriteLine("ERROR");
+                Console.WriteLine(ex.Message);
+            }
+        }                 
     }
 }
