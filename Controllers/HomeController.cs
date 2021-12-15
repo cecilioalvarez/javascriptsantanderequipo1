@@ -22,7 +22,7 @@ namespace javascriptsantanderequipo1.Controllers
 
         public IActionResult Index()
         {
-           @ViewBag.datos = DataBase.MostrarTabla();
+            @ViewBag.datos = DataBase.MostrarTabla();
             return View();
         }
 
@@ -34,18 +34,22 @@ namespace javascriptsantanderequipo1.Controllers
         {
             return View();
         }
-         public IActionResult Borrar(int numero)
+        public IActionResult Borrar(int numero)
         {
             DataBase.BorrarDispositivo(numero);
             return RedirectToAction("Index");
         }
         public IActionResult Insertar(string concepto, decimal importe)
         {
-            DataBase.InsertarDispositivo(new ClaseFactura(concepto,importe));
+            DataBase.InsertarDispositivo(new ClaseFactura(concepto, importe));
             return RedirectToAction("Index");
         }
 
-
+        public IActionResult Detalles(int numero)
+        {
+            @ViewBag.detalles = DataBase.MostrarDetalles( numero);
+            return View();
+        }
 
 
 
@@ -55,6 +59,6 @@ namespace javascriptsantanderequipo1.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-       
+
     }
 }

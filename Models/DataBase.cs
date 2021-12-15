@@ -71,7 +71,7 @@ namespace javascriptsantanderequipo1.Models {
                 Console.WriteLine(ex.Message);
             }
         }     
-         // Funcion que elimina el dispositivo.
+        // Funcion que elimina el dispositivo.
         public static void BorrarDispositivo(int posicion){
             string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=cursosantander;";
             // Consulta en SQL
@@ -101,6 +101,47 @@ namespace javascriptsantanderequipo1.Models {
                 Console.WriteLine("ERROR");
                 Console.WriteLine(ex.Message);
             }
-        }                 
+        }    
+
+        // Funcion que carga la tabla.
+        public static List<ClaseFactura> MostrarDetalles(int numero) {
+            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=cursosantander;";
+            // Consulta en SQL
+            string query = "SELECT * FROM Facturas WHERE numero =" + numero + ";";
+            // Prepara la conexión
+            MySqlConnection databaseConnection = new MySqlConnection(connectionString);
+            MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
+            commandDatabase.CommandTimeout = 60;
+            MySqlDataReader reader;
+            List<ClaseFactura> dato = new List<ClaseFactura>();
+            try {
+                // Abre la base de datos
+                databaseConnection.Open();
+
+                // Ejecuta la consultas
+                reader = commandDatabase.ExecuteReader();
+                
+                if (reader.HasRows) {
+                    while (reader.Read()) {
+                        // Lee cada fila.
+                        dato.Add(new ClaseFactura (Convert.ToInt32(reader.GetString(0)),reader.GetString(1),Convert.ToDecimal(reader.GetString(2))));
+                    }         
+                }
+                else {
+                    Console.WriteLine("No se encontraron datos.");
+                }
+                
+                // Cerrar la conexión
+                databaseConnection.Close();
+                return dato;
+               
+            } catch (Exception ex) {
+                // Mostrar cualquier excepción
+                Console.WriteLine("ERROR");
+                Console.WriteLine(ex.Message);
+                return dato;   
+                         
+            }
+        }                  
     }
 }

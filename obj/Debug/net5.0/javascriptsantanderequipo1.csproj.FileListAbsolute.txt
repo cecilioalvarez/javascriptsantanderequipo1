@@ -254,3 +254,4 @@ C:\Users\diego\Desktop\Curso Cecilio\Git\javascriptsantanderequipo1\javascriptsa
 C:\Users\diego\Desktop\Curso Cecilio\Git\javascriptsantanderequipo1\javascriptsantanderequipo1\obj\Debug\net5.0\javascriptsantanderequipo1.genruntimeconfig.cache
 C:\Users\diego\Desktop\Curso Cecilio\Git\javascriptsantanderequipo1\javascriptsantanderequipo1\obj\Debug\net5.0\Razor\Views\Home\InsertarDispositivo.cshtml.g.cs
 C:\Users\Admin\Desktop\GR3\javascriptsantanderequipo1\obj\Debug\net5.0\Razor\Views\Home\InsertarDispositivo.cshtml.g.cs
+C:\Users\diego\Desktop\Curso Cecilio\Git\javascriptsantanderequipo1\javascriptsantanderequipo1\obj\Debug\net5.0\Razor\Views\Home\Detalles.cshtml.g.cs
