@@ -7,9 +7,9 @@ namespace net.Models
 
         public string Concepto { get; set; }
         public int Numero { get; set; }
-        public double Importe { get; set; }
+        public decimal Importe { get; set; }
         
-        public Factura(int Numero, string Concepto, double Importe)
+        public Factura(int Numero, string Concepto, decimal Importe)
         {
 
             this.Numero = Numero;
