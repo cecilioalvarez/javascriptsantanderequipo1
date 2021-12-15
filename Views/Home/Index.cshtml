@@ -2,12 +2,9 @@
     ViewData["Title"] = "Home Page";
 }
 
-
 @foreach (var factura in ViewBag.listaFacturas)
 {
-      
+    <p>@factura.Numero</p>
+      <p>@factura.Concepto</p>
+       <p>@factura.Importe</p>
 }
-
-
-
-   
