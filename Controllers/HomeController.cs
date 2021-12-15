@@ -40,6 +40,15 @@ namespace javascriptsantanderequipo1.Controllers
             return View();
         }
 
+        public IActionResult Insertar(Factura factura)
+        {
+            FacturaRepository repositorio= new FacturaRepository();
+            repositorio.Insertar(factura);
+            List<Factura> listaFacturas=repositorio.BuscarTodos();
+            ViewBag.listaFacturas=listaFacturas;
+            return View("Index");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
