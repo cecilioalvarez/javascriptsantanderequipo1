@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
         "projectName": "javascriptsantanderequipo1",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
