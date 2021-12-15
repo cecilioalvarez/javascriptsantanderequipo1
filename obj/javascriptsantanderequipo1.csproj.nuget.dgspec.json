@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
         "projectName": "javascriptsantanderequipo1",
-        "projectPath": "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
