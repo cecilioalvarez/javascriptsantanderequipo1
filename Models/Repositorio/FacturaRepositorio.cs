@@ -30,4 +30,3 @@ namespace javascriptsantanderequipo1.Models
 
     }
 
-}
