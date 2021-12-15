@@ -2,6 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
+<<<<<<< HEAD
 <head>
     <style> table, th, td 
         {
@@ -36,3 +37,11 @@
     </tbody>
 
 </table>
+=======
+@foreach (var factura in ViewBag.listaFacturas)
+{
+    <p>@factura.Numero</p>
+      <p>@factura.Concepto</p>
+       <p>@factura.Importe</p>
+}
+>>>>>>> 375d20d4c844e4a650cb0daddb252e2a42baeec5

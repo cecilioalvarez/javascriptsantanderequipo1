@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using javascriptsantanderequipo1.Models;
-using MySql.Data.MySqlClient;
+
 
 namespace javascriptsantanderequipo1.Controllers
 {
@@ -22,27 +22,9 @@ namespace javascriptsantanderequipo1.Controllers
         public IActionResult Index()
         {
 
-            string connectionString = "datasource=localhost;port=3306;username=root;database=cursosantander;";
-            // Tu consulta en SQL
-            string query = "SELECT * from Facturas";
-            try
-            {
-                MySqlConnection databaseConnection = new MySqlConnection(connectionString);
-                MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
-                databaseConnection.Open();
-                MySqlDataReader reader;
-               
-
-                // Ejecuta la lectura de la primera fila de la tabla
-                reader = commandDatabase.ExecuteReader();
-                reader.Read();
-                ViewBag.concepto= reader.GetString("concepto");
-                
-            }catch(Exception e) {
-
-                    Console.WriteLine(e);
-                
-            }
+            FacturaRepository repositorio= new FacturaRepository();
+            List<Factura> listaFacturas=repositorio.BuscarTodos();
+            ViewBag.listaFacturas=listaFacturas;
 
             return View();
         }
