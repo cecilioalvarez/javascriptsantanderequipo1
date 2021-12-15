@@ -8,7 +8,7 @@ namespace javascriptsantanderequipo1.Models
         public List<Factura> BuscarTodos() {
 
 
-            string connectionString = "datasource=localhost;port=8889;username=root;password=root;database=cursosantander;";
+            string connectionString = "datasource=localhost;port=3306;username=root;database=cursosantander;";
                 // Tu consulta en SQL
                 string query = "SELECT * from Facturas";
                 List<Factura> lista= new List<Factura>();
