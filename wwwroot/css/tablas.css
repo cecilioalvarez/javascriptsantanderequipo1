@@ -1,9 +1,24 @@
 #tablaFacturas{
     width: 100%;
 }
+
 th,td{
     text-align: center;
 }
+
 #tablaFacturas, th, td{
     border: 1px solid black;
+}
+
+#tablaFormulario, #caja, #valor, #boton{
+    border: none;
+}
+
+#caja{
+    text-align: right;
+    padding-right: 20px;
+}
+
+#boton{
+    padding: 10px;
 }
