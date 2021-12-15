@@ -854,19 +854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
       "projectName": "javascriptsantanderequipo1",
       "projectPath": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
-      "projectName": "javascriptsantanderequipo1",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\obj\\",
->>>>>>> d5565d416548b2f15a2f3ba54bfff72c97693b8b
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -916,12 +908,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
->>>>>>> d5565d416548b2f15a2f3ba54bfff72c97693b8b
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

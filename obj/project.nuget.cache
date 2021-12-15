@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "yOY8xr6F/HCSqKfUKtYDdU91VgRPNK/d5S05PBO5l8LTDKM3eiI015n8JPqaW+40N9bmd6Izkb9cZTNDiE/4MQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
-=======
-  "dgSpecHash": "FEMFw4NJEfIGS9xsiyv1sZ5XJAtDbjDWIRGeaV+fSrleClElNn7wJQb7A2Mq0t8S7jDpSFJw8KeM0J1IqNGBZw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
->>>>>>> d5565d416548b2f15a2f3ba54bfff72c97693b8b
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
@@ -30,5 +24,12 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

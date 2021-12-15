@@ -3,12 +3,8 @@ build_property.TargetFramework = net5.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = javascriptsantanderequipo1
-<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Admin\Desktop\javascriptsantanderequipo1\
-=======
-build_property.ProjectDir = C:\Users\Admin\Desktop\Repo Comp\javascriptsantanderequipo1\
->>>>>>> d5565d416548b2f15a2f3ba54bfff72c97693b8b

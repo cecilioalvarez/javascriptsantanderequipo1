@@ -20,7 +20,7 @@ namespace net.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.ListaFacturas = FacturaRepositorio.BuscarTodos();
+            //ViewBag.ListaFacturas = FacturaRepositor.BuscarTodos();
             return View();
         }
 
