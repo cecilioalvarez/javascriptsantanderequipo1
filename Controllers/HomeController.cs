@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using javascriptsantanderequipo1.Models;
 using MySql.Data.MySqlClient;
 
+
 namespace javascriptsantanderequipo1.Controllers
 {
     public class HomeController : Controller
@@ -29,6 +30,19 @@ namespace javascriptsantanderequipo1.Controllers
         {
             return View();
         }
+        public IActionResult InsertarDispositivo()
+        {
+            return View();
+        }
+        public IActionResult Insertar(string concepto, decimal importe)
+        {
+            DataBase.InsertarDispositivo(new ClaseFactura(concepto,importe));
+            return RedirectToAction("Index");
+        }
+
+
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -36,9 +50,6 @@ namespace javascriptsantanderequipo1.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult InsertarDispositivo()
-        {
-            return View();
-        }
+       
     }
 }

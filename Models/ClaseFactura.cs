@@ -11,6 +11,10 @@ namespace javascriptsantanderequipo1.Models {
             this.numero = numero;               
             this.concepto = concepto;   
             this.importe = importe;   
-        }                                   
+        }    
+        public ClaseFactura(string concepto, decimal importe) {                
+            this.concepto = concepto;   
+            this.importe = importe;   
+        }                                         
     }
 }
