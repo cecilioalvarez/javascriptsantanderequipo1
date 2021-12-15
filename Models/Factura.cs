@@ -1,4 +1,4 @@
-namespace net.Models
+namespace javascriptsantanderequipo1.Models
 {
 
     public class Factura

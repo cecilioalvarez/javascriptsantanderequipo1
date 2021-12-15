@@ -1,5 +1,7 @@
 using MySql.Data.MySqlClient;
 using System.Collections.Generic;
+
+
 namespace javascriptsantanderequipo1.Models
 
 {
@@ -29,4 +31,6 @@ namespace javascriptsantanderequipo1.Models
         }
 
     }
+
+}
 
