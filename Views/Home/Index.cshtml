@@ -3,3 +3,19 @@
 }
 
 @ViewBag.concepto
+
+<table>
+    <tr>
+        <th>Número</th>
+        <th>Concepto</th>
+        <th>Importe</th>
+    </tr>
+    @foreach (var factura in ViewBag.listaFacturas)
+    {
+        <tr>
+            <td>@factura.Numero</td>
+            <td>@factura.Concepto</td>
+            <td>@factura.Importe</td>
+        </tr>
+    }
+</table>
