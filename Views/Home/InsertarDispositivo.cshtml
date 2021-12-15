@@ -1,0 +1,41 @@
+<style>
+    body {
+        background-color: black;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        margin-top: 10%;
+        margin-left: 25%;
+        padding: 2%;
+        color: white;
+    }
+
+    input {
+        width: 60%;
+        margin: 2%;
+    }
+
+    label{
+         margin-top: 5%;
+    }
+
+
+    input[type="submit"] {
+        width: auto;
+        padding: 2%;
+        margin: 5%;
+    }
+</style>
+
+<form action="InsertarDsipositivo">
+    <label for="Concepto">Introduce el Concepto</label>
+    <input type="text" name="Concepto" id="Concepto" placeholder="Introduce el Concepto" />
+    <label for="Importe">Introduce el Importe Total</label>
+    <input type="number" name="Importe" id="Importe" placeholder="Introduce el Importe" />
+    <input type="submit" value="enviar" />
+</form>

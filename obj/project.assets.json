@@ -849,19 +849,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\diego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
       "projectName": "javascriptsantanderequipo1",
-      "projectPath": "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Admin\\Desktop\\Repo rama 3\\javascriptsantanderequipo1\\obj\\",
+      "projectPath": "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
