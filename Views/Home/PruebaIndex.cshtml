@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "rama 4";
+}
+
+<html>
+    <head>
+        <link href="/css/Pruebahojadeestilos.css" rel="stylesheet" type="text/css" />
+    </head>
+<body>
+    <table>
+        <tr>
+            <th>Numero</th>
+            <th>Concepto</th>
+            <th>Importe</th>
+        </tr>
+        @foreach (var factura in ViewBag.ListaFacturas)
+        {
+            <tr>
+                <td>@factura.Numero</td>
+                <td>@factura.Concepto</td>
+                <td>@factura.Importe</td>
+                <td><a href="/home/BorrarFactura?numero=@factura.Numero">Borrar</a></td>
+            </tr>
+
+        }
+    </table>
+   <a href="/Home/PruebaFormulario">Añadir nuevo</a>
+</body>
+
+</html>

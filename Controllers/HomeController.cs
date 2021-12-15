@@ -22,10 +22,41 @@ namespace javascriptsantanderequipo1.Controllers
         public IActionResult Index()
         {
 
-            FacturaRepository repositorio= new FacturaRepository();
-            List<Factura> listaFacturas=repositorio.BuscarTodos();
-            ViewBag.listaFacturas=listaFacturas;
+            FacturaRepository repositorio = new FacturaRepository();
+            List<Factura> listaFacturas = repositorio.BuscarTodos();
+            ViewBag.listaFacturas = listaFacturas;
 
+            return View();
+        }
+        // borrar
+        public IActionResult PruebaIndex()
+        {
+
+            FacturaRepository repositorio = new FacturaRepository();
+            List<Factura> listaFacturas = repositorio.BuscarTodos();
+            ViewBag.listaFacturas = listaFacturas;
+
+            return View();
+        }
+        public IActionResult PruebaFormulario()
+        {
+            return View();
+        }
+        public IActionResult Formulario()
+        {
+            return View();
+        }
+        public IActionResult Insertar(Factura factura)
+        {
+            FacturaRepository repositorio = new FacturaRepository();
+            repositorio.Insertar(factura);
+            List<Factura> listaFacturas = repositorio.BuscarTodos();
+            ViewBag.listaFacturas = listaFacturas;
+            return View("PruebaIndex");
+        }
+        public IActionResult Detalle(int numero)
+        {
+            ViewBag.Numero = numero;
             return View();
         }
 
@@ -33,6 +64,12 @@ namespace javascriptsantanderequipo1.Controllers
         {
             return View();
         }
+       /* public IActionResult BorrarFactura(int numero)
+        {
+            FacturaRepository.BorrarUna(numero);
+            //ViewBag.ListaFacturas = FacturaRepositorio.BuscarTodos();
+            return RedirectToAction("PruebaIndex", "Home");
+        }*/
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

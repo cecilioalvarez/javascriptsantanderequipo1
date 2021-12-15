@@ -151,3 +151,5 @@ C:\Users\Admin\Desktop\CursoHTML\javascript\javascriptsantanderequipo1\obj\Debug
 C:\Users\Admin\Desktop\CursoHTML\javascript\javascriptsantanderequipo1\obj\Debug\net5.0\ref\javascriptsantanderequipo1.dll
 C:\Users\Admin\Desktop\CursoHTML\javascript\javascriptsantanderequipo1\obj\Debug\net5.0\javascriptsantanderequipo1.genruntimeconfig.cache
 >>>>>>> 080d1f62baeba0ca5abab75c3241cec47629e3db
+C:\Users\Admin\Desktop\CursoHTML\javascript\javascriptsantanderequipo1\obj\Debug\net5.0\Razor\Views\Home\PruebaFormulario.cshtml.g.cs
+C:\Users\Admin\Desktop\CursoHTML\javascript\javascriptsantanderequipo1\obj\Debug\net5.0\Razor\Views\Home\PruebaIndex.cshtml.g.cs
