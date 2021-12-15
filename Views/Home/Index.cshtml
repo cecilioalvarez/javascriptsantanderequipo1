@@ -2,9 +2,38 @@
     ViewData["Title"] = "Home Page";
 }
 
-@foreach (var factura in ViewBag.listaFacturas)
-{
-    <p>@factura.Numero</p>
-      <p>@factura.Concepto</p>
-       <p>@factura.Importe</p>
-}
+<head>
+    <style> table, th, td 
+        {
+            border: 2px solid rgb(145, 68, 68);
+            border-collapse: separate;
+            border-spacing: 15px;
+            border-collapse: collapse;
+            text-align: center;
+        }</style>
+</head>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Numero</th>
+            <th>Concepto</th>
+            <th>Importe</th>
+
+            <th>Ver Detalle</th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var factura in ViewBag.listaFacturas)
+        {
+            <tr>
+                <td>@factura.Numero</td>
+                <td>@factura.Concepto</td>
+                <td>@factura.Importe</td>
+
+            </tr>
+        }
+    </tbody>
+
+</table>
