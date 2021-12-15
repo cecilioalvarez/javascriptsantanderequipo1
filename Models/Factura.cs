@@ -15,5 +15,10 @@ namespace javascriptsantanderequipo1.Models
             this.Importe = Importe;
         }
 
+        public Factura()
+        {
+
+        }
+
     }
 }

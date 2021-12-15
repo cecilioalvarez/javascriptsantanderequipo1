@@ -22,11 +22,26 @@ namespace javascriptsantanderequipo1.Controllers
         public IActionResult Index()
         {
 
-            FacturaRepository repositorio= new FacturaRepository();
-            List<Factura> listaFacturas=repositorio.BuscarTodos();
-            ViewBag.listaFacturas=listaFacturas;
+            FacturaRepository repositorio = new FacturaRepository();
+            List<Factura> listaFacturas = repositorio.BuscarTodos();
+            ViewBag.listaFacturas = listaFacturas;
 
             return View();
+        }
+
+        public IActionResult FormularioInsertar()
+        {
+
+            return View();
+        }
+
+        public IActionResult Insertar(Factura factura)
+        {
+            FacturaRepository repositorio = new FacturaRepository();
+            repositorio.Insertar(factura);
+            List<Factura> listaFacturas = repositorio.BuscarTodos();
+            ViewBag.listaFacturas = listaFacturas;
+            return View("Index");
         }
 
         public IActionResult Privacy()
