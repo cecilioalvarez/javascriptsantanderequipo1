@@ -1,0 +1,9 @@
+#tablaFacturas{
+    width: 100%;
+}
+th,td{
+    text-align: center;
+}
+#tablaFacturas, th, td{
+    border: 1px solid black;
+}
