@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FEMFw4NJEfIGS9xsiyv1sZ5XJAtDbjDWIRGeaV+fSrleClElNn7wJQb7A2Mq0t8S7jDpSFJw8KeM0J1IqNGBZw==",
+  "dgSpecHash": "yOY8xr6F/HCSqKfUKtYDdU91VgRPNK/d5S05PBO5l8LTDKM3eiI015n8JPqaW+40N9bmd6Izkb9cZTNDiE/4MQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Repo Comp\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",

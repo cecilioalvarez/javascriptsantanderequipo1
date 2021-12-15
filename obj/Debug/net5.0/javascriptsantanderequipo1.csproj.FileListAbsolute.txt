@@ -153,8 +153,6 @@ C:\Users\Admin\Desktop\Repo Comp\javascriptsantanderequipo1\obj\Debug\net5.0\ref
 C:\Users\Admin\Desktop\Repo Comp\javascriptsantanderequipo1\obj\Debug\net5.0\javascriptsantanderequipo1.pdb
 C:\Users\Admin\Desktop\Repo Comp\javascriptsantanderequipo1\obj\Debug\net5.0\javascriptsantanderequipo1.genruntimeconfig.cache
 >>>>>>> d5565d416548b2f15a2f3ba54bfff72c97693b8b
-<<<<<<< HEAD
 C:\Users\Admin\Desktop\javascriptsantanderequipo1\obj\Debug\net5.0\Razor\Views\Home\Formulario.cshtml.g.cs
-=======
 C:\Users\Admin\Desktop\Repo Comp\javascriptsantanderequipo1\obj\Debug\net5.0\Razor\Views\Home\Formulario.cshtml.g.cs
 >>>>>>> fe56688724b30b7e6ddaf11c5252833c1744414d

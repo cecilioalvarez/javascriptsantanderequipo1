@@ -29,16 +29,9 @@ namespace javascriptsantanderequipo1.Controllers
             return View();
         }
 
-<<<<<<< HEAD
             public IActionResult FormularioInsertar()
 
             { return View();}
-=======
-        public IActionResult Formulario()
-        {
-            return View();
-        }
->>>>>>> fe56688724b30b7e6ddaf11c5252833c1744414d
 
         public IActionResult Privacy()
         {
