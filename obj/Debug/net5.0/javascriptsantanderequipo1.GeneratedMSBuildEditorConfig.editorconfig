@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = javascriptsantanderequipo1
+<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\Admin\Desktop\Repo rama 3\javascriptsantanderequipo1\
+=======
+build_property.ProjectDir = c:\Users\Admin\Desktop\GR3\javascriptsantanderequipo1\
+>>>>>>> e058d1d71287920d04a7052910246f069fc0634b
