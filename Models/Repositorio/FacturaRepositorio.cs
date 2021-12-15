@@ -30,9 +30,11 @@ namespace javascriptsantanderequipo1.Models
 
         }
         public void Insertar(Factura f){
-            string connectionString = "datasource=localhost;port=3306;username=root;database=cursosantander;SslMode=none"
-            string query = "insert into facturas values ("+f.Numero+","+","+f.Concepto+","+f.Importe+")";
-
+            string connectionString = "datasource=localhost;port=3306;username=root;database=cursosantander;SslMode=none";
+            
+            string query = "insert into Facturas values ("+ f.Numero+ ", '" + f.Concepto+ "'," +f.Importe+")"; 
+             
+            
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             
