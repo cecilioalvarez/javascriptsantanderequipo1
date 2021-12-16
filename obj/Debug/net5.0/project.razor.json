@@ -15619,6 +15619,11 @@
   "RootNamespace": "javascriptsantanderequipo1",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\Views\\Home\\Detalles.cshtml",
+      "TargetPath": "Views\\Home\\Detalles.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

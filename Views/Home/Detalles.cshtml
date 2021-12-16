@@ -1,3 +1,72 @@
- @ViewBag.detalles[0].numero
- @ViewBag.detalles[0].concepto
- @ViewBag.detalles[0].importe
+<div class="contenedor">
+    <div class="contendorNumero">
+        <p>Numero de la Factura</p>
+        @ViewBag.detalles[0].numero
+    </div>
+    <div class="contendorConcepto">
+        <p>Concepto de la Factura</p>
+        @ViewBag.detalles[0].concepto
+    </div>
+    <div class="contendorImporte">
+        <p>Importe de la Factura</p>
+        @ViewBag.detalles[0].importe
+    </div>   
+</div>
+
+<style>
+     body{
+        background-color: rgba(0, 0, 0, 0.9);
+        
+    }
+    .contenedor {
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: row;
+        border: white 1px solid;
+        color: white;
+        padding-bottom: 0.5%;
+        border:20px solid black;
+        animation: borde 1s infinite;
+    }
+    .contendorNumero {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.1%;
+        padding-bottom: 0.1%;
+        width: 100%;
+        text-align: center;       
+    }
+    .contendorNumero p {
+       padding: 0.3%;
+       width: 100%;
+       text-decoration: underline;
+    }
+    .contendorConcepto {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.1%;
+        padding-bottom: 0.1%;
+        width: 100%;
+        text-align: center;
+    }
+    .contendorConcepto p {
+        padding: 0.3%;
+        width: 100%;
+        text-decoration: underline;
+    }
+    .contendorImporte {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0.1%;
+        padding-bottom: 0.1%;
+        width: 100%;
+        text-align: center;
+    }
+    .contendorImporte p {
+        padding: 0.3%;
+        width: 100%;
+        text-decoration: underline;
+    }
+</style>

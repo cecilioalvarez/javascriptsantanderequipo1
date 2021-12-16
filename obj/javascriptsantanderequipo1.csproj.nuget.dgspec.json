@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {
+    "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
         "projectName": "javascriptsantanderequipo1",
-        "projectPath": "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
-        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\Curso Cecilio\\Git\\javascriptsantanderequipo1\\javascriptsantanderequipo1\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\javascriptsantanderequipo1.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\GR3\\javascriptsantanderequipo1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,6 +53,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
